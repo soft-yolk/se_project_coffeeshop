@@ -197,10 +197,6 @@
   font-weight: 500;
 }
 
-.form {
-  max-width: 385px;
-}
-
 .form__fieldset {
   display: flex;
   flex-direction: column;
@@ -215,6 +211,7 @@
 
 .reservation__form {
   margin: 0 auto 120px;
+  max-width: 385px;
 }
 
 .form__label {
