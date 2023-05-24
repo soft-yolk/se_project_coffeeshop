@@ -12,15 +12,15 @@
   z-index: -1;
 }
 
-.logo {
+/* .logo {
   width: 125px;
   height: 142px;
   position: absolute;
   left: 30px;
   top: 30px;
-}
+} */
 
-.nav {
+/* .nav {
   display: flex;
   justify-content: flex-end;
   gap: 20px;
@@ -52,7 +52,7 @@
 
 .nav__link:hover {
   color: #2f80ed;
-}
+} */
 
 .header__title {
   max-width: 729px;
