@@ -13,6 +13,12 @@
   margin-bottom: 8px;
 }
 
+.form__label:last-of-type {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .form__input[type="text"],
 .form__input[type="email"],
 .form__input[type="number"],
@@ -23,6 +29,7 @@
   border-radius: 4px;
   padding-left: 20px;
   padding-right: 20px;
+  box-sizing: border-box;
 }
 
 .form__input::placeholder {
@@ -52,18 +59,12 @@
   opacity: 0.7;
 }
 
-.form__label-checkbox {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  align-items: center;
-}
-
-.form__input-checkbox {
+.form__checkbox {
   border-radius: 2px;
   width: 20px;
   height: 20px;
   margin-right: 12px;
+  margin-left: 0;
 }
 
 .form__input[type="text"]:focus,

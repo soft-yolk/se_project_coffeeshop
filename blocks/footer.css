@@ -14,11 +14,6 @@
   height: 21px;
 }
 
-.footer__social-column {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer__social-heading {
   margin-top: 0;
   margin-bottom: 20px;
@@ -31,8 +26,6 @@
 }
 
 .footer__list {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 0;
 }
@@ -40,7 +33,6 @@
 .footer__list-item {
   list-style: none;
   margin-bottom: 16px;
-  display: flex;
 }
 .footer__list-item:last-of-type {
   margin-bottom: 0;
